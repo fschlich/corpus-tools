@@ -248,7 +248,7 @@ To add a file for other languages, follow the naming convention nonbreaking_pref
 The sentence splitter module will first look for a file for the language it is processing, and fall back to English if a file
 for that language is not found.
 
-For the splitter, normally a period followed by an uppercase word results in a sentence split. If the word preceeding the period
+For the splitter, normally a period followed by an uppercase word results in a sentence split. If the word preceding the period
 is a nonbreaking prefix, this line break is not inserted.
 
 A special case of prefixes, NUMERIC_ONLY, is included for special cases where the prefix should be handled ONLY when before numbers.
